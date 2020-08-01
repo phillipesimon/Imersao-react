@@ -1,5 +1,6 @@
 .Logo {
-    max-width: 168px;
+    max-width: 200px;
+    margin-top: 8px;
 }
 
 @media (max-width: 800px) {
@@ -21,8 +22,8 @@
     right: 0;
     padding-left: 5%;
     padding-right: 5%;
-    background: var(--black);
-    border-bottom: 2px solid var(--primary);
+    background: var(--red);
+    border-bottom: 2px solid var(--black);
 }
 
 body {
@@ -42,8 +43,8 @@ body {
 }
 
 .ButtonLink {
-    color: var(--white);
-    border: 1px solid var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
@@ -55,6 +56,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
+    background-color: #DB202C;
 }
 
 .ButtonLink:hover,
@@ -68,9 +70,12 @@ body {
         left: 0;
         right: 0;
         bottom: 0;
-        background: var(--primary);
+        font-weight: bold;
+        background: var(--red);
         border-radius: 0;
-        border: 0;
+        outline-color: var(--black);
+        /* border: 0; */
         text-align: center;
+        /* color: #DB202C; */
     }
 }
