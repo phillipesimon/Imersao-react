@@ -1,16 +1,44 @@
 {
-    "categorias":[
-        {
-            "id": 1,
-            "nome": "Front End",
-            "descricao": "Descricao da categoria",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Back End",
-            "descricao": "Outra categoria",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Games",
+      "cor": "#015",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Cade a Chave",
+      "cor": "#19e194",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "Fall Guys - LuckySalamander (Parte 1)",
+      "url": "https://www.youtube.com/watch?v=NECHVYygDzU",
+      "description": "Primeira gameplay de fall guys no canal",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Fall Guys - LuckySalamander (Parte 2)",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=gk6XLCSFySQ&t=592s"
+    },
+    {
+      "titulo": "Arvore de Natal",
+      "url": "https://www.youtube.com/watch?v=jp5dt7tOpa8",
+      "categoriaId": 2,
+      "id": 5
+    }
+  ]
 }
